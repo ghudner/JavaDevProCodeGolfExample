@@ -1,18 +1,25 @@
-## Getting Started
+# Welcome to DevPro Code Golf - Java Edition! 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+- This repo contains **5 challenge files** `ChallengeX.java`.
+- Inside each file, you’ll find a **single function** stub that you must implement.
+- **You may only modify the function body** (no touching the test harness, no sneaky imports—yes, we’ll know 😎).
 
-The workspace contains two folders by default, where:
+Open this repo in **IntelliJ** or **VS Code**. Running the **DevProCodeGolfMain.java** main function will run **10 test cases per challenge** and tell you whether each test passed or failed.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+If you pass all challenges in and all test cases, you’ll see this message:  🏆🏆🏆 !!All challenges passed!! 🏆🏆🏆
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🎯 Scoring Rules
 
-## Dependency Management
+- Your score is the **character count of your function** (Lower is better)
+- **BUT**... for each test failure you get, you’ll be slapped with a **+100 character penalty** so make sure all test cases pass first!
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🚨 Pro Tips
+
+- Yes, you can use one-letter variables.
+- Yes, you can abuse Java’s weirdest quirks.
+- Yes, it has to compile (no infinite golfing without finishing the hole).
