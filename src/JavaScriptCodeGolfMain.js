@@ -18,7 +18,7 @@ function main() {
   });
 
   if (totalFailures === 0) {
-    console.log("🏆🏆🏆 !!All challenges passed!! 🏆🏆🏆");
+    console.log("🏆🏆🏆 !!All JavaScript challenges passed!! 🏆🏆🏆");
     process.exit(0);
   } else {
     console.log(`\nTotal failed test cases across JavaScript challenges: ${totalFailures} (character penalty of ${totalFailures * 100})\n`);

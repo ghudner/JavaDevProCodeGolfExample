@@ -29,7 +29,7 @@ public class JavaCodeGolfMain {
         }
 
         if (totalFailures == 0) {
-            System.out.printf("🏆🏆🏆 !!All challenges passed!! 🏆🏆🏆\n");
+            System.out.printf("🏆🏆🏆 !!All Java challenges passed!! 🏆🏆🏆\n");
             System.out.printf("TODO: Go back and reduce the number of characters (including whitespaces) in each function!\n");
             System.exit(0); // <-- return code to the OS / shell
         } else {

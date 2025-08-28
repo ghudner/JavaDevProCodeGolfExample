@@ -1,28 +1,34 @@
 # Welcome to DevPro Code Golf! 
 
 
-- This repo contains **5 challenges in both Java and JavaScript**: `src/Java/Challenges/ChallengeX.java`
+### There are 5 challenges in Java and JavaScript here: 
+`src/Java/Challenges/ChallengeX.java`
+
 `src/JavaScript/Challenges/ChallengeX.js`
-- Inside each file, you’ll find a **single function** stub `f()` that you must implement.
-- **You may only modify the function itself** (no touching the test harness, mains, and no new imports — yes, we’ll know 😎)
+- Inside each file, you’ll find a single function stub. **Implement `f()` with the least number of characters possible (including whitespaces)**
+- **You may only modify the function itself**  - no touching the test harness and **no imports/libraries**
 
-Open this repo in IntelliJ or VS Code. 
+Running the main functions in src/JavaCodeGolfMain.java and src/JavaScriptCodeGolfMain.js will execute **10 test cases per challenge**. 
 
-Running the main functions in **JavaCodeGolfMain.java** and **JavaScriptCodeGolfMain.js** will run **10 test cases per challenge** and tell you whether each test passed or failed. 
-
-You can run them directly in the command line with these commands: 
+### Use these commands to test your code: 
 
 `node src/JavaScriptCodeGolfMain.js`
 
 `javac -d ./bin ./src/**/*.java && java -cp ./bin JavaCodeGolfMain`
 
-If you pass all challenges in and all test case for each language, you’ll see this message:  
+Once you pass all 50 tests, you’ll see this message:  
 
 `🏆🏆🏆 !!All challenges passed!! 🏆🏆🏆`
 
 ---
 
-## 🎯 Scoring Rules
+## 🎯 Scoring Rules and getting your total
 
 - Your score is the **character count of your whole function** (Lower is better)
-- **BUT**... for each test failure you get, you’ll be slapped with a **+100 character penalty** so make sure all test cases pass first!
+- You get a **+100 character penalty** for every failed test - make sure they all pass!
+
+### To get your total score, run:
+
+`python3 playerScore.py`  
+
+(or `python playerScore.py` if you're an OG Python-er and that doesn't work)
