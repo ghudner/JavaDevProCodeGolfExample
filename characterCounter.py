@@ -34,7 +34,7 @@ def main_as_function(directory):
         path = os.path.join(directory, fname)
         if not os.path.isfile(path):
             continue
-        if not fname.endswith(".java"):
+        if not (fname.endswith(".java") or fname.endswith(".js")):
             continue
         count = count_between_markers(path)
         print(f"{fname}: {count} characters")
