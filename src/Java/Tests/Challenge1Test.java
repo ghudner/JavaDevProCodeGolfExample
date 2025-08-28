@@ -2,7 +2,7 @@ package Java.Tests;
 
 import Java.Challenges.Challenge1;
 
-public class ChallengeOneTest implements ChallengeTest{
+public class Challenge1Test implements ChallengeTest{
 
         @Override
         public int runTests() {
