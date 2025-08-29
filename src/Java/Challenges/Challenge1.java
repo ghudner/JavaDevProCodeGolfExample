@@ -11,7 +11,7 @@ public class Challenge1 implements Challenge<Integer, String> {
     //       4   -> "1234"
     //       -11 -> "1234567891011"
     //       0   -> ""
-    //
+
     
     @Override
     //All characters (including whitespace/newlines) in the function f() below count towards your total
@@ -24,12 +24,10 @@ public class Challenge1 implements Challenge<Integer, String> {
     }
     //@@@
 
-    //---SAMPLE SOLUTION---
     String fExampleSolution(int n){
         n=Math.abs(n);
         StringBuilder s=new StringBuilder();
         for(int i=1;i<=n;i++)s.append(i);
         return s.toString();
     }
-     //---END SAMPLE SOLUTION---
 }

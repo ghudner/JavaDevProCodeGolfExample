@@ -12,10 +12,7 @@ class Challenge1{
   //All characters (including whitespace/newlines) in the function f() below count towards your total
   //@@@
   f(n) {
-    n = Math.abs(n);
-    let s = "";
-    for (let i = 1; i <= n; i++) s += i;
-    return "s";
+    return "fail";
   }
   //@@@
 

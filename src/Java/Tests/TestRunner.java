@@ -7,8 +7,7 @@ public class TestRunner {
             try {
                 O result = challenge.f(inputs[i]);
                 if (!result.equals(expected[i])) {
-                    System.out.printf("❌ Test #%2d FAILED — Input: %s Expected: %s Got: %s%n",
-                                      i + 1, inputs[i], expected[i], result);
+                    System.out.printf("❌ Test #%2d FAILED — Input: %s Expected: %s Got: %s%n", i + 1, inputs[i], expected[i], result);
                     failed++;
                 }
             } catch (Exception e) {
